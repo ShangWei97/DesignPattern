@@ -4,7 +4,7 @@ package com.shang.singleton;
  * 懒汉模式（双重校验锁）
  *
  * @author shangwei
- * @date 3031/6/9
+ * @date 2021/6/9
  */
 public class Singleton_3 {
 
