@@ -5,7 +5,7 @@ package com.shang.observer;
  *
  * @author shangwei
  */
-public class MySubject extends AbstractSubject {
+public class MySubject extends SubjectAbstract {
     @Override
     public void operation() {
         System.out.println("update self!");

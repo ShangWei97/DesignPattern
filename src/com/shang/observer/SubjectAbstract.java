@@ -7,7 +7,7 @@ import java.util.Vector;
  * @author shangwei
  * @date 2021/06/10
  */
-public abstract class AbstractSubject implements Subject {
+public abstract class SubjectAbstract implements Subject {
 
     /**
      * 多线程情况下添加可能造成线程不安全，所以用 {@link Vector}
