@@ -1,5 +1,16 @@
 package com.shang.factory;
 
+/**
+ * 生产者
+ *
+ * @author shangwei
+ */
 public interface Provider {
-    Sender produce();
+
+	/**
+	 * 生产方法
+	 *
+	 * @return
+	 */
+	Sender produce();
 }
