@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Builder {
 
-    private List<Sender> list=new ArrayList<Sender>();
+    private List<Sender> list=new ArrayList<>();
 
     public void produceMailSender(int count) {
         for (int i = 0; i < count; i++) {
